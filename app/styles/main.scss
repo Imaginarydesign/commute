@@ -30,6 +30,10 @@ $icon-font-path: '../fonts/';
 
 .text-white {
   color: #fff;
+  a, a:hover, a:focus {
+    color: #fff;
+    text-decoration: underline;
+  }
 }
 
 #form-inputs {

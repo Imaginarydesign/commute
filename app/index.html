@@ -76,8 +76,32 @@
             <button type="submit" class="btn btn-warning" style="margin-top: 30px;">Calculate</button>
           </div>
           </div>
-          <p class="text-white"><small>Approx fuel cost at £1.10 per litre and 35 mpg</small></p>
+          <p class="text-white"><small>Approx fuel cost at <a href="#" id="fuelPrice">£1.10</a> per litre and <a href="#">35 mpg</a></small> </p>
         </form>
+      </div>
+    </div>
+
+    <!-- Price Change Modal -->
+    <div class="modal fade" id="fuelModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Fuel Price</h4>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="fuel-price" class="control-label">Fuel Price (£)</label>
+                <input type="text" class="form-control" id="fuelPriceInput">
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary" id="setPrice">Save changes</button>
+          </div>
+        </div>
       </div>
     </div>
     
