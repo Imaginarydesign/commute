@@ -1,9 +1,0 @@
-{
-  "globals": {
-    "$": 0,
-    "google": 0
-  },
-  "rules": {
-    "strict": 0
-  }
-}
