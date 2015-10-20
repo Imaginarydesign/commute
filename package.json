@@ -26,9 +26,6 @@
     "opn": "^1.0.1",
     "wiredep": "^2.2.2"
   },
-  "scripts": {
-    "postinstall": "bower install && npm install"
-  },
   "eslintConfig": {
     "env": {
       "node": true,
