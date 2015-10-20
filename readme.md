@@ -4,6 +4,10 @@ Discover the cost of your commute
 
 ![todo](https://github.com/Imaginarydesign/commute/raw/master/image.png)
 
+## Preview
+
+[http://imaginarydesign.github.io/commute/](http://imaginarydesign.github.io/commute/)
+
 ## Requirements
 
 - npm
